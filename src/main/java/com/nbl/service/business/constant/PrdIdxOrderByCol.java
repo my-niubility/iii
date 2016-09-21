@@ -8,7 +8,7 @@ package com.nbl.service.business.constant;
  */
 public enum PrdIdxOrderByCol {
 
-	CREATE_TIME("1", "创建时间"), EXPECT_EARN_RATE("2", "年化收益率"), UNIT_COST("3", "产品单价"), B_LOCK_PERIOD("4", "赎回锁定期");
+	CREATE_TIME("1", "创建时间"), EXPECT_EARN_RATE("2", "年化收益率"), UNIT_COST("3", "产品单价"), HOLD_PERIOD("4", "可持有天数");
 
 	private String value;
 	private final String displayName;
